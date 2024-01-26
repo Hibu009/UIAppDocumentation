@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T20:42:57.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LCJvw2qDAEMv6K_RErQN" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-26T18:31:57.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9wUS2FxFs8jvrmYhyGnv" version="22.1.18" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="95.5" y="255" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Operaatiot" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="445" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="444.5" y="128" width="280" height="812" as="geometry" />
         </mxCell>
         <mxCell id="wTJZmwRIWWd_R5w7dIyM-43" value="Kirjautuu järjestelmään" style="ellipse;whiteSpace=wrap;html=1;" parent="3" vertex="1">
           <mxGeometry x="40" y="32" width="196.5" height="80" as="geometry" />
@@ -25,11 +25,17 @@
         <mxCell id="wTJZmwRIWWd_R5w7dIyM-50" value="Peruu tilauksia" style="ellipse;whiteSpace=wrap;html=1;" parent="3" vertex="1">
           <mxGeometry x="40" y="392" width="194.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wTJZmwRIWWd_R5w7dIyM-53" value="Tilaa työtilauksen" style="ellipse;whiteSpace=wrap;html=1;" parent="3" vertex="1">
+        <mxCell id="wTJZmwRIWWd_R5w7dIyM-53" value="Valitsee purkualueen" style="ellipse;whiteSpace=wrap;html=1;" parent="3" vertex="1">
           <mxGeometry x="43.75" y="212" width="194.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wTJZmwRIWWd_R5w7dIyM-56" value="Kuittaa tilauksia" style="ellipse;whiteSpace=wrap;html=1;" parent="3" vertex="1">
+        <mxCell id="wTJZmwRIWWd_R5w7dIyM-56" value="Oikeus omiin sloteihin" style="ellipse;whiteSpace=wrap;html=1;" parent="3" vertex="1">
           <mxGeometry x="40" y="482" width="194.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0V9yF9Lv6287iIUDMnHC-4" value="Muokkaus kaikkiin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="41" y="572" width="194.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0V9yF9Lv6287iIUDMnHC-8" value="Notifikaatioiden lähetys" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="40" y="662" width="194.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Työmaapalvelut käyttäjä" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="725" y="128" width="280" height="570" as="geometry" />
@@ -73,13 +79,13 @@
             <mxPoint x="610" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wTJZmwRIWWd_R5w7dIyM-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="wTJZmwRIWWd_R5w7dIyM-56" target="wTJZmwRIWWd_R5w7dIyM-52" edge="1">
+        <mxCell id="wTJZmwRIWWd_R5w7dIyM-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="wTJZmwRIWWd_R5w7dIyM-56" target="wTJZmwRIWWd_R5w7dIyM-42" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="410" as="sourcePoint" />
             <mxPoint x="510" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wTJZmwRIWWd_R5w7dIyM-58" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="wTJZmwRIWWd_R5w7dIyM-50" target="wTJZmwRIWWd_R5w7dIyM-52" edge="1">
+        <mxCell id="wTJZmwRIWWd_R5w7dIyM-58" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0V9yF9Lv6287iIUDMnHC-4" target="wTJZmwRIWWd_R5w7dIyM-52" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="410" as="sourcePoint" />
             <mxPoint x="510" y="360" as="targetPoint" />
@@ -101,6 +107,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="410" as="sourcePoint" />
             <mxPoint x="510" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0V9yF9Lv6287iIUDMnHC-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wTJZmwRIWWd_R5w7dIyM-50" target="wTJZmwRIWWd_R5w7dIyM-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689" y="570" as="sourcePoint" />
+            <mxPoint x="895" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
